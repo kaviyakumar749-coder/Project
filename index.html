@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="browser">
+        <!-- Navigation -->
+        <header class="navbar">
+            <a href="#home" class="logo">KM</a>
+            <span class="brand">My Portfolio</span>
+
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="talk-btn">Let's Talk</a>
+            </nav>
+        </header>
+
+        <!-- Home Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="hello">HELLO, WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hi, I'm Kaviya.<br>
+                    I build thoughtful<br>
+                    digital experiences<span>.</span>
+                </h1>
+
+                <div class="underline"></div>
+
+                <p class="description">
+                    I am a passionate IT student who loves creating
+                    beautiful websites and learning new technologies.
+                </p>
+
+                <a href="#projects" class="primary-btn">
+                    View My Work <span>→</span>
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <div class="circle"></div>
+                <img
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85"
+                    alt="Profile portrait"
+                >
+                <span class="decoration">✦</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+            <p>
+                I'm an IT student interested in web development,
+                programming, and creative design. My goal is to
+                transform ideas into useful and user-friendly
+                digital experiences.
+            </p>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <div class="section-heading">
+                <div>
+                    <h2>Projects</h2>
+                    <div class="underline"></div>
+                </div>
+                <p>A few things I've been working on.</p>
+            </div>
+
+            <div class="project-grid">
+
+                <article class="project-card peach">
+                    <div class="project-art recipe-art">
+                        <div class="food-circle">🍓</div>
+                        <div class="food-box">🥗 🍪 🥑</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Recipe Finder</h3>
+                        <p>Discover recipes and food ideas.</p>
+                        <a href="#contact" aria-label="Recipe Finder project">↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card blue">
+                    <div class="project-art study-art">
+                        <div class="task">
+                            <span>✓</span> Study Schedule
+                        </div>
+                        <div class="task">
+                            <span>✓</span> Assignments
+                        </div>
+                        <div class="task">
+                            <span>○</span> Daily Goals
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Study Planner</h3>
+                        <p>Organize tasks and study time.</p>
+                        <a href="#contact" aria-label="Study Planner project">↗</a>
+                    </div>
+                </article>
+
+                <article class="project-card green">
+                    <div class="project-art travel-art">
+                        <div class="landscape">🏝️</div>
+                        <div class="landscape-small">🌊</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Travel Journal</h3>
+                        <p>Save memories from every journey.</p>
+                        <a href="#contact" aria-label="Travel Journal project">↗</a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <div class="underline"></div>
+
+            <div class="skill-list">
+                <div class="skill"><span class="html-icon">5</span> HTML</div>
+                <div class="skill"><span class="css-icon">3</span> CSS</div>
+                <div class="skill"><span class="js-icon">JS</span> JavaScript</div>
+                <div class="skill"><span class="c-icon">C</span> C Programming</div>
+                <div class="skill"><span class="java-icon">☕</span> Java</div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <h2>Let's Create Something Great.</h2>
+            <p>Have an idea or project? I'd love to hear from you.</p>
+            <a href="mailto:yourmail@example.com" class="primary-btn">
+                Contact Me →
+            </a>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>© <span id="year"></span> Kaviya | My Portfolio</p>
+            <a href="#home">Back to top ↑</a>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
